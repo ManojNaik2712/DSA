@@ -7,7 +7,7 @@ public class MaxSubarraySum {
         int maximumSum = arr[0];
 
         for (int i = 0; i < arr.length; i++) {
-            currentSum +=arr[i];
+            currentSum += arr[i];
             maximumSum = Math.max(maximumSum,currentSum);
 
             if(currentSum < 0){
