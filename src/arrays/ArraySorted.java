@@ -13,7 +13,7 @@ public class ArraySorted {
     }
 
     public static void main(String[] args) {
-        int[] arr = {7};
+        int[] arr = {1,2,5,6,7};
 
         System.out.println(isSorted(arr));
     }
