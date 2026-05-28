@@ -58,3 +58,8 @@ public class MergeSortedList {
         printList(merged);
     }
 }
+
+/*
+    Time : O(n + m)
+    Space : O(1)
+ */
